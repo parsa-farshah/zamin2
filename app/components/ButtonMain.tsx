@@ -8,7 +8,7 @@ type Ttitle = {
 function ButtonMain({ image, text }: Ttitle) {
   return (
     <div>
-      <button className="w-auto flex justify-center text-white items-center h-5 border-1  border-transparent border-t-[#1B5AC2] border-b-[#174BD2] border-x-[#174BD2] bg-gradient-to-b from-[#2B7AFB] via-[#2174FD] to-[#213BFD] rounded-xl  font-inter  text-sm shadow-inner shadow-white/40 shadow-2xl cursor-pointer gap-2 py-5 px-2">
+      <button className="w-auto flex justify-center  items-center h-10 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none  shadow-lg shadow-blue-500/50 dark:shadow-md dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 duration-600 ">
         {image && (
           <Image
             src={image}
