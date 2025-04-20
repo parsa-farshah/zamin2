@@ -17,10 +17,13 @@ function Header() {
           Idea to MVP, without <br className="md:hidden block" /> the{" "}
           <br className="lg:block hidden" /> overhead
         </h1>
-        <p className="pt-4 text-lg font-normal text-[#717171] text-center">
-          We’re a design and development team in the Middle East helping
-          startups <br className="lg:block hidden" /> build testable products
-          quickly and affordably from first sketch to launch
+        <p className="pt-4 text-[16px] sm:text-lg font-normal text-[#717171] text-center">
+          We’re a design and development team in <br className="md:hidden" />{" "}
+          the Middle East <br className="hidden md:block xl:hidden" /> helping
+          startups build <br className="md:hidden xl:block" />
+          testable products quickly and{" "}
+          <br className="hidden md:block xl:hidden" />
+          affordably <br className="md:hidden" /> from first sketch to launch
         </p>
       </div>
     </div>
