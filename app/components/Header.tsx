@@ -19,10 +19,10 @@ function Header() {
         </h1>
         <p className="pt-4 text-[16px] sm:text-lg font-normal text-[#717171] text-center">
           We’re a design and development team in <br className="md:hidden" />{" "}
-          the Middle East <br className="hidden md:block xl:hidden" /> helping
-          startups build <br className="md:hidden xl:block" />
+          the Middle East <br className="hidden md:block lg:hidden" /> helping
+          startups build <br className="md:hidden lg:block" />
           testable products quickly and{" "}
-          <br className="hidden md:block xl:hidden" />
+          <br className="hidden md:block lg:hidden" />
           affordably <br className="md:hidden" /> from first sketch to launch
         </p>
       </div>
