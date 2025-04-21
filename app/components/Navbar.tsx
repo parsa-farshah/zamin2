@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import logoZamin from "../../public/images/logoZamin.svg";
-import ButtonMain from "./ButtonMain";
 
 function Navbar() {
   return (
