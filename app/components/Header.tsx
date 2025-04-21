@@ -1,14 +1,20 @@
 import Image from "next/image";
 import React from "react";
-import headerXl from "../../public/images/headerImageXl.svg";
+import headerXl from "../../public/images/Desktop and tablet.webp";
+import headerMobile from "../../public/images/mobile.webp";
 
 function Header() {
   return (
     <div className="w-full flex flex-col items-center justify-center">
       <div className="w-full flex justify-center">
         <Image
-          className="bg-auto w-full h-full pt-[120px]"
+          className="object-contain hidden sm:block  w-full h-full pt-[120px]"
           src={headerXl}
+          alt="haeder Image Xl"
+        />
+        <Image
+          className="object-contain sm:hidden  w-full h-full pt-[120px]"
+          src={headerMobile}
           alt="haeder Image Xl"
         />
       </div>
