@@ -19,7 +19,9 @@ function Navbar() {
         </ul>
       </div>
       <div>
-        <ButtonMain text="Have an idea?" />
+        <button className="w-[113px] flex justify-center  items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm  text-center ">
+          Have an idea?
+        </button>
       </div>
     </div>
   );
