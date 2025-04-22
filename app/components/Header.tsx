@@ -6,10 +6,10 @@ import younes from "../../public/images/younesImage.png";
 
 function Header() {
   return (
-    <div className="w-full flex flex-col items-center justify-center">
+    <div className="w-full flex flex-col items-center justify-center pt-[104px]">
       <div className="w-full flex justify-center">
         <Image
-          className="object-contain hidden sm:block max-w-[1200px]  w-full h-full pt-[120px]"
+          className="object-contain hidden sm:block max-w-[1200px]  w-full h-full "
           src={headerXl}
           alt="haeder Image Xl"
         />
@@ -19,12 +19,12 @@ function Header() {
           alt="haeder Image Xl"
         />
       </div>
-      <div className="pt-8">
-        <h1 className="text-center text-[#282828] text-[32px] sm:text-[58px] font-medium">
+      <div className="pt-2">
+        <h1 className="text-center font-roboto text-[#282828] text-[32px] sm:text-[48px] leading-16 font-medium">
           Idea to MVP, without <br className="md:hidden block" /> the{" "}
           <br className="lg:block hidden" /> overhead
         </h1>
-        <p className="pt-4 text-[16px] sm:text-lg font-normal text-[#717171] text-center">
+        <p className="pt-1 text-[16px] font-inter font-normal text-[#717171] leading-6 text-center">
           We’re a design and development team in <br className="md:hidden" />{" "}
           the Middle East <br className="hidden md:block lg:hidden" /> helping
           startups build <br className="md:hidden lg:block" />
@@ -35,16 +35,16 @@ function Header() {
       </div>
       {/* button */}
       <div className="w-full flex justify-center">
-        <div className="w-full max-w-[1400px] flex items-center justify-between gap-2 pt-14">
+        <div className="w-full max-w-[1400px] flex items-center justify-between gap-2 pt-6">
           <div className="bg-[#BFBFBF] w-full h-0.5"></div>
           <div className="flex gap-3">
             <div className="w-full flex justify-center">
-              <button className="w-[131px] flex justify-center text-sm items-center h-9 text-white bg-gradient-to-r from-gray-950 via-gray-800 to-gray-950 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center">
+              <button className="w-[131px] flex justify-center text-sm items-center h-9 text-white bg-gradient-to-r from-gray-950 via-gray-800 to-gray-950 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center font-inter ">
                 See Our Work
               </button>
             </div>
             <div className="w-full flex justify-center">
-              <button className="w-[131px] flex justify-center items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm text-center">
+              <button className="w-[131px] flex justify-center items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm text-center font-inter">
                 Book a 15-min call
               </button>
             </div>
@@ -53,7 +53,7 @@ function Header() {
         </div>
       </div>
       {/* 4image  */}
-      <div className="flex flex-row-reverse justify-center pt-[36px] pr-[40px]">
+      <div className="flex flex-row-reverse justify-center pt-[20px] pr-[40px]">
         <div className="z-40 bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
           <Image
             className="rounded-2xl"
@@ -94,7 +94,7 @@ function Header() {
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
           <span className="relative inline-flex size-2 rounded-full bg-green-600"></span>
         </span>
-        <p> 2 Spots Available</p>
+        <p className="font-inter"> 2 Spots Available</p>
       </div>
       {/* section work */}
     </div>

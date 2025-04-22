@@ -4,7 +4,7 @@ import logoZamin from "../../public/images/logoZamin.svg";
 
 function Navbar() {
   return (
-    <div className="bg-white w-[361px] md:w-[537px] h-[56px] fixed top-[38px] rounded-[19px] shadow flex justify-between px-[12px] py-8 items-center  z-20">
+    <div className="bg-white w-[361px] md:w-[537px] h-[56px] fixed top-[32px] rounded-[19px] shadow flex justify-between px-[12px] py-8 items-center  z-20">
       <div className="flex items-center gap-3 ">
         <Image src={logoZamin} alt="" />
         <h1 className="text-black font-bold font-inter">Zamin</h1>
@@ -18,7 +18,7 @@ function Navbar() {
         </ul>
       </div>
       <div>
-        <button className="w-[113px] flex justify-center  items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm  text-center ">
+        <button className="w-[113px] flex justify-center  items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm  text-center font-inter ">
           Have an idea?
         </button>
       </div>
