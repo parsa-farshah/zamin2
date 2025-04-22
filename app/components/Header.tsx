@@ -9,7 +9,7 @@ function Header() {
     <div className="w-full flex flex-col items-center justify-center">
       <div className="w-full flex justify-center">
         <Image
-          className="object-contain hidden sm:block  w-full h-full pt-[120px]"
+          className="object-contain hidden sm:block max-w-[1200px]  w-full h-full pt-[120px]"
           src={headerXl}
           alt="haeder Image Xl"
         />
@@ -34,22 +34,23 @@ function Header() {
         </p>
       </div>
       {/* button */}
-      <div className="w-full flex items-center justify-between gap-2 pt-14">
-        <div className="bg-[#BFBFBF] w-full h-0.5 "></div>
-        <div className="flex gap-3">
-          <div className="w-full flex justify-center">
-            <button className="w-[131px] flex justify-center text-sm  items-center h-9 text-white bg-gradient-to-r from-gray-950 via-gray-800 to-gray-950 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center ">
-              See Our Work
-            </button>
+      <div className="w-full flex justify-center">
+        <div className="w-full max-w-[1400px] flex items-center justify-between gap-2 pt-14">
+          <div className="bg-[#BFBFBF] w-full h-0.5"></div>
+          <div className="flex gap-3">
+            <div className="w-full flex justify-center">
+              <button className="w-[131px] flex justify-center text-sm items-center h-9 text-white bg-gradient-to-r from-gray-950 via-gray-800 to-gray-950 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center">
+                See Our Work
+              </button>
+            </div>
+            <div className="w-full flex justify-center">
+              <button className="w-[131px] flex justify-center items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm text-center">
+                Book a 15-min call
+              </button>
+            </div>
           </div>
-          <div className="w-full flex justify-center">
-            <button className="w-[131px] flex justify-center  items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm  text-center ">
-              Book a 15-min call
-            </button>
-          </div>
+          <div className="bg-[#BFBFBF] w-full h-0.5"></div>
         </div>
-
-        <div className="bg-[#BFBFBF] w-full h-0.5 "></div>
       </div>
       {/* 4image  */}
       <div className="flex flex-row-reverse justify-center pt-[36px] pr-[40px]">
@@ -89,11 +90,11 @@ function Header() {
 
       {/* end 4image */}
       <div className="flex justify-center items-center gap-2 mt-4">
-        <span className=" relative flex size-3">
+        <span className=" relative flex size-2">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
-          <span className="relative inline-flex size-3 rounded-full bg-green-600"></span>
+          <span className="relative inline-flex size-2 rounded-full bg-green-600"></span>
         </span>
-        <p> 2 Spots Abailable</p>
+        <p> 2 Spots Available</p>
       </div>
       {/* section work */}
     </div>
