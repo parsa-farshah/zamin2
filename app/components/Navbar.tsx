@@ -4,7 +4,7 @@ import logoZamin from "../../public/images/logoZamin.svg";
 
 function Navbar() {
   return (
-    <div className="bg-white w-[361px] md:w-[537px] h-[56px] fixed top-[32px] rounded-[19px] shadow flex justify-between px-[12px] py-8 items-center  z-20">
+    <div className="bg-white w-[361px] md:w-[537px] h-[56px] fixed top-[22px] rounded-[19px] shadow flex justify-between px-[12px] py-8 items-center  z-20">
       <div className="flex items-center gap-3 ">
         <Image src={logoZamin} alt="" />
         <h1 className="text-black font-bold font-inter">Zamin</h1>
