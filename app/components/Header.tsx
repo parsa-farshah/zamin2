@@ -14,7 +14,7 @@ function Header() {
           alt="haeder Image Xl"
         />
         <Image
-          className="object-contain sm:hidden w-full h-full pt-[120px]"
+          className="object-contain sm:hidden w-full h-full pt-[70px]"
           src={headerMobile}
           alt="haeder Image Xl"
         />
