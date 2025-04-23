@@ -14,17 +14,17 @@ function Header() {
           alt="haeder Image Xl"
         />
         <Image
-          className="object-contain sm:hidden w-full h-full pt-1"
+          className="object-contain sm:hidden w-full h-full pt-3"
           src={headerMobile}
           alt="haeder Image Xl"
         />
       </div>
       <div className="pt-1">
-        <h1 className="text-center font-roboto text-[#282828] text-[32px] sm:text-[42px] leading-13 font-bold">
+        <h1 className="text-center font-roboto text-[#282828] text-[36px] sm:text-[42px] leading-11 sm:leading-13 font-extrabold">
           Idea to MVP, without <br className="md:hidden block" /> the{" "}
           <br className="lg:block hidden" /> overhead
         </h1>
-        <p className="pt-2 text-[14px] font-inter font-normal text-[#717171] leading-6 text-center">
+        <p className="pt-3 sm:pt-2 text-[14px] font-inter font-normal text-[#717171] leading-6 text-center">
           We’re a design and development team in <br className="md:hidden" />{" "}
           the Middle East <br className="hidden md:block lg:hidden" /> helping
           startups build <br className="md:hidden lg:block" />
@@ -35,7 +35,7 @@ function Header() {
       </div>
       {/* button */}
       <div className="w-full flex justify-center">
-        <div className="w-full max-w-[1400px] flex items-center justify-between gap-2 pt-4">
+        <div className="w-full max-w-[1400px] flex items-center justify-between gap-2 pt-8 sm:pt-4">
           <div className="bg-[#BFBFBF] w-full h-0.5"></div>
           <div className="flex gap-3">
             <div className="w-full flex justify-center">
@@ -53,7 +53,7 @@ function Header() {
         </div>
       </div>
       {/* 4image  */}
-      <div className="flex flex-row-reverse justify-center pt-5 pr-[40px]">
+      <div className="flex flex-row-reverse justify-center pt-7 sm:pt-5 pr-[40px]">
         <div className="z-40 bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
           <Image
             className="rounded-2xl"
