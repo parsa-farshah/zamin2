@@ -20,7 +20,7 @@ function Header() {
         />
       </div>
       <div className="pt-1">
-        <h1 className="text-center font-roboto text-[#282828] text-[36px] sm:text-[42px] leading-11 sm:leading-13 font-extrabold">
+        <h1 className="text-center font-roboto text-[#282828] pt-10 sm:pt-0 text-[36px] sm:text-[42px] leading-11 sm:leading-13 font-extrabold sm:font-bold">
           Idea to MVP, without <br className="md:hidden block" /> the{" "}
           <br className="lg:block hidden" /> overhead
         </h1>
