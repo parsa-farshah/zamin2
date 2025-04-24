@@ -89,14 +89,13 @@ function Header() {
       </div>
 
       {/* end 4image */}
-      <div className="flex justify-center items-center gap-2 mt-1">
+      <div className="flex justify-center items-center gap-2 pt-3">
         <span className=" relative flex size-2">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
           <span className="relative inline-flex size-2 rounded-full bg-green-600"></span>
         </span>
-        <p className="font-inter"> 2 Spots Available</p>
+        <p className="font-inter text-[12px] font-medium"> 2 Spots Available</p>
       </div>
-      {/* section work */}
     </div>
   );
 }
