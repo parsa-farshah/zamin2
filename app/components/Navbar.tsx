@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import logoZamin from "../../public/images/logoZamin.svg";
 import AOS from "aos";
+declare module "aos";
 import "aos/dist/aos.css";
 
 function Navbar() {
