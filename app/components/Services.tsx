@@ -39,8 +39,8 @@ function Services() {
                 Market Research
               </h1>
               <p className="text-[#727272] text-[14px] font-normal font-inter pt-[13px] leading-6">
-                On a rush to meet your project's strict <br /> deadline?! Don't
-                you worry at all. We're <br /> super fast on design, just start
+                On a rush to meet your projects strict <br /> deadline?! Dont
+                you worry at all. Were <br /> super fast on design, just start
                 now
               </p>
             </div>
@@ -52,8 +52,8 @@ function Services() {
                 UX Research
               </h1>
               <p className="text-[#727272] text-[14px] font-normal font-inter pt-[13px]">
-                On a rush to meet your project's strict deadline?! Don't you
-                worry at all. We're super fast on design, just start now
+                On a rush to meet your projects strict deadline?! Dont you
+                worry at all. Were super fast on design, just start now
               </p>
             </div>
           </div>
@@ -67,8 +67,8 @@ function Services() {
                 Ui Design
               </h1>
               <p className="text-[#727272] text-[14px] font-normal font-inter pt-[13px] leading-6">
-                On a rush to meet your project's strict <br /> deadline?! Don't
-                you worry at all. We're <br /> super fast on design, just start
+                On a rush to meet your projects strict <br /> deadline?! Dont
+                you worry at all. Were <br /> super fast on design, just start
                 now
               </p>
             </div>
@@ -80,8 +80,8 @@ function Services() {
                 UX Audit
               </h1>
               <p className="text-[#727272] text-[14px] font-normal font-inter pt-[13px]">
-                On a rush to meet your project's strict deadline?! Don't you
-                worry at all. We're super fast on design, just start now
+                On a rush to meet your projects strict deadline?! Dont you
+                worry at all. Were super fast on design, just start now
               </p>
             </div>
           </div>
@@ -95,8 +95,8 @@ function Services() {
                 Front-end development
               </h1>
               <p className="text-[#727272] text-[14px] font-normal font-inter pt-[13px] leading-6">
-                On a rush to meet your project's strict <br /> deadline?! Don't
-                you worry at all. We're <br /> super fast on design, just start
+                On a rush to meet your projects strict <br /> deadline?! Dont
+                you worry at all. Were <br /> super fast on design, just start
                 now
               </p>
             </div>
@@ -108,8 +108,8 @@ function Services() {
                 Back-end development
               </h1>
               <p className="text-[#727272] text-[14px] font-normal font-inter pt-[13px]">
-                On a rush to meet your project's strict deadline?! Don't you
-                worry at all. We're super fast on design, just start now
+                On a rush to meet your projects strict deadline?! Dont you
+                worry at all. Were super fast on design, just start now
               </p>
             </div>
           </div>
