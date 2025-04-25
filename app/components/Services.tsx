@@ -24,7 +24,7 @@ function Services() {
           Tailored solutions for <br /> startups & tech
         </h1>
         <p className="font-inter font-light text-[14px] text-[#727272] text-center pt-3">
-          Discover the magic we’ve crafted lately- wher <br /> creativiti meets
+          Discover the magic weve crafted lately- wher <br /> creativiti meets
           impact see what we;wve been <br /> up to and get inspired
         </p>
       </div>
