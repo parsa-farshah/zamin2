@@ -58,13 +58,15 @@ function Work() {
                   Figma - next js
                 </p>
               </div>
-              <div className="pt-5">
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3]">
-                  Members
-                </h3>
+              <div className="pt-5 flex flex-col justify-end items-end">
+                <div className="pr-[50px]">
+                  <h3 className="font-inter font-bold text-[10px]  text-[#C3C3C3]">
+                    Members
+                  </h3>
+                </div>
                 {/* 4image  */}
-                <div className="flex  items-start pt-1 sm:pt-1">
-                  <div className="z-30 bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                <div className="flex justify-end items-end pt-1 sm:pt-1">
+                  <div className="z-30 bg-amber-800 relative right-[-45px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       alt="imageYounes"
@@ -72,7 +74,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-20 relative left-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-20 relative right-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -80,7 +82,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-10 relative left-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-10 relative right-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -88,7 +90,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-0 relative left-[-45px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-0 relative left-[0px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -130,13 +132,15 @@ function Work() {
                   Figma - next js
                 </p>
               </div>
-              <div className="pt-5">
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3]">
-                  Members
-                </h3>
+              <div className="pt-5 flex flex-col justify-end items-end">
+                <div className="pr-[50px]">
+                  <h3 className="font-inter font-bold text-[10px]  text-[#C3C3C3]">
+                    Members
+                  </h3>
+                </div>
                 {/* 4image  */}
-                <div className="flex  items-start pt-1 sm:pt-1">
-                  <div className="z-30 bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                <div className="flex justify-end items-end pt-1 sm:pt-1">
+                  <div className="z-30 bg-amber-800 relative right-[-45px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       alt="imageYounes"
@@ -144,7 +148,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-20 relative left-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-20 relative right-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -152,7 +156,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-10 relative left-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-10 relative right-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -160,7 +164,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-0 relative left-[-45px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-0 relative left-[0px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
