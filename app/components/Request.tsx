@@ -57,8 +57,8 @@ function Request() {
               name=""
               placeholder="Tell us about your project"
               id="#"
-              cols="30"
-              rows="4"
+              cols={30}
+              rows={4}
             ></textarea>
           </div>
           {/* 3 */}
