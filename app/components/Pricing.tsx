@@ -29,7 +29,7 @@ function Pricing() {
         </p>
       </div>
       {/* cards */}
-      <div className="flex pt-11 gap-6 justify-center">
+      <div className="flex flex-col items-center sm:flex-row pt-11 gap-6 justify-center">
         {/* first */}
         <div className="w-[262px] h-auto bg-[#FFFFFF] rounded-[20px] pt-[32px] px-4 pb-[16px]">
           <h1 className="font-inter font-semibold text-[16px] ">
@@ -46,7 +46,7 @@ function Pricing() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-3 pt-6 pl-2">
+          <div className="flex-col gap-3 pt-6 pl-2 hidden sm:flex">
             <div className="flex gap-2">
               <Image src={tick} alt="tick" />
               <p className="font-inter font-light text-[14px]">
@@ -78,7 +78,7 @@ function Pricing() {
               </p>
             </div>
           </div>
-          <div className="pt-28">
+          <div className="pt-10 sm:pt-28">
             <button className="w-full flex justify-center  items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm  text-center font-inter ">
               Submit Request
             </button>
@@ -100,7 +100,7 @@ function Pricing() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-3 pt-6 pl-2">
+          <div className="hidden sm:flex flex-col gap-3 pt-6 pl-2">
             <div className="flex gap-2">
               <Image src={tick} alt="tick" />
               <p className="font-inter font-light text-[14px]">
@@ -132,7 +132,7 @@ function Pricing() {
               </p>
             </div>
           </div>
-          <div className="pt-28">
+          <div className="pt-10 sm:pt-28">
             <button className="w-full flex justify-center  items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm  text-center font-inter ">
               Submit Request
             </button>
