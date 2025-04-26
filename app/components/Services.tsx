@@ -2,6 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dotWork from "../../public/images/dotsWork.svg";
 import servisImage from "../../public/images/servicesImage.svg";
+import uxResearch from "../../public/images/uxResearch.svg";
+import uiDesign from "../../public/images/uidesign.svg";
+import uiAduit from "../../public/images/uiAduit.svg";
+import frontEnd from "../../public/images/frontEnd.svg";
+import backEnd from "../../public/images/backEnd.svg";
 
 function Services() {
   return (
@@ -12,7 +17,7 @@ function Services() {
           <div className="w-full flex justify-center">
             <button className="w-[131px] flex justify-center rounded-[12px] items-center h-9 bg-[#EBEBEB] font-semibold  text-sm text-center font-inter ">
               <Image className="w-[17px] mx-2" src={dotWork} alt="" />
-              Work
+              Services
               <Image className="w-[17px] mx-2" src={dotWork} alt="" />
             </button>
           </div>
@@ -47,13 +52,13 @@ function Services() {
           </div>
           <div className="flex-col items-start bg-[#FFFFFF] rounded-3xl w-[45%] hidden sm:flex">
             <div className="pl-6 pt-6">
-              <Image src={servisImage} alt="servis image" />
+              <Image src={uxResearch} alt="servis image" />
               <h1 className="font-inter font-semibold text-[16px] pt-[13px]">
                 UX Research
               </h1>
               <p className="text-[#727272] text-[14px] font-normal font-inter pt-[13px]">
-                On a rush to meet your projects strict deadline?! Dont you
-                worry at all. Were super fast on design, just start now
+                On a rush to meet your projects strict deadline?! Dont you worry
+                at all. Were super fast on design, just start now
               </p>
             </div>
           </div>
@@ -62,7 +67,7 @@ function Services() {
         <div className="flex justify-between w-full pt-[34px]">
           <div className="flex flex-col items-start bg-[#FFFFFF] rounded-3xl w-[100%] sm:w-[45%]">
             <div className="pl-6 py-6">
-              <Image src={servisImage} alt="servis image" />
+              <Image src={uiDesign} alt="servis image" />
               <h1 className="font-inter font-semibold text-[16px] pt-[13px]">
                 Ui Design
               </h1>
@@ -75,13 +80,13 @@ function Services() {
           </div>
           <div className=" flex-col items-start bg-[#FFFFFF] rounded-3xl w-[45%] hidden sm:flex">
             <div className="pl-6 pt-6">
-              <Image src={servisImage} alt="servis image" />
+              <Image src={uiAduit} alt="servis image" />
               <h1 className="font-inter font-semibold text-[16px] pt-[13px]">
                 UX Audit
               </h1>
               <p className="text-[#727272] text-[14px] font-normal font-inter pt-[13px]">
-                On a rush to meet your projects strict deadline?! Dont you
-                worry at all. Were super fast on design, just start now
+                On a rush to meet your projects strict deadline?! Dont you worry
+                at all. Were super fast on design, just start now
               </p>
             </div>
           </div>
@@ -90,7 +95,7 @@ function Services() {
         <div className="flex justify-between w-full pt-[34px]">
           <div className="flex flex-col items-start bg-[#FFFFFF] rounded-3xl w-[100%] sm:w-[45%]">
             <div className="pl-6 py-6">
-              <Image src={servisImage} alt="servis image" />
+              <Image src={frontEnd} alt="servis image" />
               <h1 className="font-inter font-semibold text-[16px] pt-[13px]">
                 Front-end development
               </h1>
@@ -103,13 +108,13 @@ function Services() {
           </div>
           <div className="flex-col items-start bg-[#FFFFFF] rounded-3xl w-[45%] hidden sm:flex">
             <div className="pl-6 pt-6">
-              <Image src={servisImage} alt="servis image" />
+              <Image src={backEnd} alt="servis image" />
               <h1 className="font-inter font-semibold text-[16px] pt-[13px]">
                 Back-end development
               </h1>
               <p className="text-[#727272] text-[14px] font-normal font-inter pt-[13px]">
-                On a rush to meet your projects strict deadline?! Dont you
-                worry at all. Were super fast on design, just start now
+                On a rush to meet your projects strict deadline?! Dont you worry
+                at all. Were super fast on design, just start now
               </p>
             </div>
           </div>
