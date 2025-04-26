@@ -15,6 +15,9 @@ function Navbar() {
       <div
         className="bg-white w-[361px] md:w-[537px] h-[56px] fixed top-[16px] rounded-[19px] shadow flex justify-between px-[12px] py-5 items-center  z-60
     "
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="400"
       >
         <div className="flex items-center gap-3 ">
           <Image src={logoZamin} alt="" />
