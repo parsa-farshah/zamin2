@@ -26,9 +26,9 @@ function Request() {
           </span>
         </pre>
         <p className="font-inter font-light text-[14px] text-[#727272] text-center pt-3">
-          Got an idea? Let's test the waters — no risks, no regrets. 🎯 <br />{" "}
-          Send us a few details and we'll hit you back with a cool offer. <br />{" "}
-          If it clicks, we're ready to roll! 🚀
+          Got an idea? Lets test the waters — no risks, no regrets. 🎯 <br />{" "}
+          Send us a few details and well hit you back with a cool offer. <br />{" "}
+          If it clicks, were ready to roll! 🚀
         </p>
       </div>
       {/* req card */}
