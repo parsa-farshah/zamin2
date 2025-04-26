@@ -11,14 +11,9 @@ function Navbar() {
     AOS.init({});
   }, []);
   return (
-    <div
-      className="flex justify-center"
-      data-aos="fade-down"
-      data-aos-easing="linear"
-      data-aos-duration="400"
-    >
+    <div className="flex justify-center">
       <div
-        className="bg-white w-[361px] md:w-[537px] h-[56px] fixed top-[16px] rounded-[19px] shadow flex justify-between px-[12px] py-5 items-center  z-20
+        className="bg-white w-[361px] md:w-[537px] h-[56px] fixed top-[16px] rounded-[19px] shadow flex justify-between px-[12px] py-5 items-center  z-60
     "
       >
         <div className="flex items-center gap-3 ">
