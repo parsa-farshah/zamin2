@@ -26,7 +26,7 @@ function Services() {
       </div>
       <div className="pt-6 flex flex-col items-center justify-center">
         <h1 className="font-inter font-medium text-2xl text-black text-center">
-          Tailored solutions for <br /> startups & tech
+          🛠️Tailored solutions for <br /> startups & tech
         </h1>
         <p className="font-inter font-light text-[14px] text-[#727272] text-center pt-3">
           Discover the magic weve crafted lately- wher <br /> creativiti meets

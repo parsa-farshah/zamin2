@@ -24,7 +24,7 @@ function Pricing() {
           💸 Pricing that Makes <br /> Sense
         </h1>
         <p className="font-inter font-light text-[14px] text-[#727272] text-center pt-3">
-          We get it — you’re just getting started, testing <br /> your idea, and
+          We get it — you're just getting started, testing <br /> your idea, and
           watching your budget like a <br /> hawk. 🦅
         </p>
       </div>
