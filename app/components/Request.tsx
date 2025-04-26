@@ -33,7 +33,7 @@ function Request() {
       </div>
       {/* req card */}
       <div className="flex justify-center w-full pt-[42px]">
-        <div className="w-[88%] bg-[#FFFFFF] rounded-[20px] h-auto flex flex-col p-6">
+        <div className="w-[88%] sm:w-[549px] bg-[#FFFFFF] rounded-[20px] h-auto flex flex-col p-6">
           {/* 1*/}
           <h1 className="font-inter font-semibold text-[14px]">
             Contact information
