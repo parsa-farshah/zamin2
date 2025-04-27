@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import dotWork from "../../public/images/dotsWork.svg";
+import AccordionCompo from "./AccordionCompo";
 function Request() {
   return (
     <div className="flex flex-col justify-center pt-24 max-w-[1400px]">
@@ -114,11 +115,29 @@ function Request() {
           </div>
           {/* button */}
           <div className="pt-6">
-            <button className="w-full flex justify-center  items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm  text-center font-inter ">
+            <button className="w-full cursor-pointer flex justify-center  items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm  text-center font-inter ">
               Submit Request
             </button>
           </div>
         </div>
+      </div>
+      {/* faqs */}
+      <div className="w-full max-w-[1400px] flex items-center justify-between gap-2 mt-[100px] ">
+        <div className="bg-[#EAEAEA] w-full h-0.5"></div>
+        <div className="flex gap-3 w-auto">
+          <div className="w-full flex justify-center">
+            <button className="w-[103px]  flex justify-center rounded-[12px] items-center h-9 bg-[#EBEBEB] font-semibold  text-sm text-center font-inter ">
+              <Image className="w-[17px] mx-2" src={dotWork} alt="" />
+              FAQs
+              <Image className="w-[17px] mx-2" src={dotWork} alt="" />
+            </button>
+          </div>
+        </div>
+        <div className="bg-[#EAEAEA] w-full h-0.5"></div>
+      </div>
+      {/* accordion */}
+      <div>
+        <AccordionCompo />
       </div>
     </div>
   );

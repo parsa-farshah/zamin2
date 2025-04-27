@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Pricing />
       <Request />
+      <Footer />
     </div>
   );
 }

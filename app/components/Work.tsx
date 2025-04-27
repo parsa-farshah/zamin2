@@ -184,7 +184,7 @@ function Work() {
           <div className="bg-[#EAEAEA] w-full h-0.5"></div>
           <div className="flex gap-3">
             <div className="w-full flex justify-center">
-              <button className="w-[138px] flex justify-start text-sm items-center h-9 text-white bg-gradient-to-r from-gray-950 via-gray-800 to-gray-950 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center font-inter">
+              <button className="w-[138px] cursor-pointer flex justify-start text-sm items-center h-9 text-white bg-gradient-to-r from-gray-950 via-gray-800 to-gray-950 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center font-inter">
                 <Image className="ml-3" src={dotBlu} alt="dot blue" />
 
                 <span className="ml-1.5">See more Works</span>
